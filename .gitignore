@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+*.log
+# Per-repo install output belongs to the CONSUMING repo, never this one:
+.claude/skills-install.json
