@@ -1,0 +1,21 @@
+{
+  "installContractVersion": 1,
+  "installedAt": "GENERIC-DEFAULTS",
+  "models": { "orchestrator": "Opus", "codeWriter": "Sonnet", "lookup": "Haiku", "reviewer": "Opus" },
+  "commands": { "test": "npm test", "build": "npm run build", "lint": "npm run lint", "typecheck": "", "run": "npm run dev" },
+  "vcs": { "baseBranch": "main", "fixPrefix": "fix/", "featurePrefix": "feat/", "mergeStyle": "squash" },
+  "review": { "severityThreshold": "medium", "maxIter": 5, "trivialFastPath": true },
+  "tracker": { "kind": "github", "backend": "gh-cli", "projectKey": "" },
+  "pr": { "timing": "draft-early", "titleConvention": "conventional-commit", "checklist": true, "onReadyReviewers": "codeowners" },
+  "statusCommentBack": true,
+  "tags": {
+    "roles": { "needs-triage": "needs-triage", "needs-info": "needs-info", "ready-for-agent": "ready-for-agent", "ready-for-human": "ready-for-human", "wontfix": "wontfix" },
+    "type": { "bug": "bug", "enhancement": "enhancement", "chore": "chore" },
+    "priority": {},
+    "area": []
+  },
+  "lifecycle": { "start": "In Progress", "draftPr": "In Review", "merged": "Done", "linkSyntax": "Closes #<n>" },
+  "filing": { "github": { "titleFmt": "", "bodyTemplate": "", "defaultLabels": [] }, "jira": { "project": "", "issueType": "Bug", "required": [], "defaultPriority": "" } },
+  "slots": {},
+  "templateVersions": {}
+}
